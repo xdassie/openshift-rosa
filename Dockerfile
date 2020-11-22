@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM alpine:latest
 RUN apk -v --update add \
   aws-cli               \
   wget                  \
