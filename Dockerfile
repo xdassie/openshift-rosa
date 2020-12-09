@@ -1,4 +1,4 @@
-FROM alpine:latest
+FROM openshift/origin-cli:v4.6.0
 RUN apk -v --update add \
   aws-cli               \
   wget                  \
